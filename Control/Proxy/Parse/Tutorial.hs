@@ -382,7 +382,7 @@ Just 99
     So we can run this 'Session' and retrieve the result directly from the
     return value:
 
->>> runProxy $ evalStateK session
+>>> runProxy $ evalStateK mempty session
 (Just 0, Just 1)
 
 -}
